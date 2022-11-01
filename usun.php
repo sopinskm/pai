@@ -12,6 +12,6 @@ if (isset($_GET['id'])) {
 	if ($wynik == true) {
 		header("Location: index.php?komunikat=2");
 	} else {
-		echo "<p style='color:red; font-weight:bold;'>Usuwanie nie powiodlo sie.</p>";
+		echo "<p style='color:green; font-weight:bold;'>Usuwanie nie powiodlo sie.</p>";
 	}
 }
